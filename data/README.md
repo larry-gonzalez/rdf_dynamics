@@ -1,6 +1,6 @@
 Data Folder
 ===========
-This folder contains the description of the data available in http://167.99.175.57/rdf_dynamics/data/
+This folder contains the description of the data available in [here](http://167.99.175.57/rdf_dynamics/)
 
 Structure
 ---------
