@@ -1,0 +1,2 @@
+Code to work with number instead of strings.
+Assumes tab separate files with two columns, a subject and a predicate.
