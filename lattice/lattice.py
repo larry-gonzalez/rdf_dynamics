@@ -170,6 +170,3 @@ for i in range(len(charsets)):
 
 fw.close()
 
-#
-# Tengo la impresión (revisar) de que esto escribe sets de predicados
-#
