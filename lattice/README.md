@@ -13,7 +13,9 @@ Dependencies:
 
 How to use it:
 --------------
-*    python lattice.py input_file lattice_output performance_output
+```
+python lattice.py input_file lattice_output performance_output
+```
 
 
 It assumes:
@@ -42,7 +44,9 @@ $ more example.txt
 
 Execution
 ---------
+```
 $ python3.5 lattice.py example.txt out1.txt out2.txt
+```
 
 
 Output1
