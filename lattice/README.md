@@ -20,8 +20,9 @@ python lattice.py input_file lattice_output performance_output
 
 It assumes:
 -----------
-*   input_file must contain one list or set per line
-*   the elements in those lists or sets must be numbers (recommended) or strings
+*   Input_file must contain one list or set per line
+*   The elements in those lists or sets must be numbers (recommended) or strings
+*   Does not require order in list or lines
 
 
 Example
@@ -38,7 +39,11 @@ $ more example.txt
 [1, 2]
 [1, 3]
 [1, 2, 3]
-[1, 3, 4]
+[4, 1, 3]
+$ more example2.txt
+['b']
+['a']
+['b','a','c']
 ```
 
 
@@ -93,5 +98,6 @@ Performance
 -----------
 *   It depends on the number of sets
 *   It depends on the distribution of the number of elements of those sets
-*   For 2,004,910 sets with 3,276 elements, it took 06:57:59 to compute a lattice
-*   For 2,118,109 sets with 3,492 elements, it took 07:51:07
+*   It depends on the element representation (string, number)
+*   For 2,004,910 sets with 3,276 elements, it took 06:57:59 to compute a lattice (numeric representation, 16G of RAM, i7 2.2 GHz processor)
+*   For 2,118,109 sets with 3,492 elements, it took 07:51:07 (numeric representation, 16GB of RAM, i7 2.2 GHz processor)
